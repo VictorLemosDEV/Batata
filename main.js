@@ -3,6 +3,8 @@ const { autoUpdater } = require('electron-updater');
 
 let mainWindow;
 
+console.log("Sou foda")
+
 function createWindow () {
   mainWindow = new BrowserWindow({
     width: 800,
